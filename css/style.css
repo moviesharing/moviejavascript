@@ -1,0 +1,110 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+  font-family: sans-serif;
+  background-color: #f7f7f7;
+}
+
+header {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Movie list styles */
+#movie-list {
+  margin-bottom: 40px;
+}
+
+.movie {
+  display: inline-block;
+  width: 150px;
+  margin-right: 20px;
+}
+
+.movie img {
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.movie h3 {
+  font-size: 18px;
+  margin: 10px 0 5px 0;
+  cursor: pointer;
+}
+
+.movie p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Movie details styles */
+#movie-details-container {
+  display: flex;
+}
+
+#movie-details-container img {
+  width: 250px;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+#movie-details-container h3 {
+  font-size: 24px;
+  margin: 0 0 10px 0;
+}
+
+#movie-details-container p {
+  margin-bottom: 10px;
+}
+
+#movie-details-container ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#movie-details-container ul li {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#movie-details-container ul li a {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+}
+
+#movie-details-container ul li a:hover {
+  background-color: #f7f7f7;
+}
